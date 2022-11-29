@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@100;200;300;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#wrapper {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 50%;
+    margin-top: 50px;
+    transform: translateX(-50%);
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#header {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 12px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 4px;
+}
+
+.list_icon {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.list_icon .icon_item {
+    margin-right: 8px;
+    background-color: #f3606e;
+    border-radius: 50%;
+}
+.list_icon .icon_item i {
+    color: #fff;
+    padding: 5px;
+}
+
+.img_person img {
+    padding: 20px;
+    width: 100%;
+}
+.content {
+    margin: 20px;
+}
+.content .heading {
+    color: #000;
+} 
+.content .heading .title  {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: gray;
+}
+.content .heading p {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.content .number {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.content .number .column {
+    margin-right: 20px;
+}
+.content .number .num {
+    font-size: 40px;
+    font-weight: 600;
+    color: #f3606e;
+}
+.content .number .para {
+    font-size: 14px;
+    color: gray;
+}
+
+.content .aboutme .about {
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #000;
+}
+.content .aboutme .about::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    top: 24px;
+    left: 0;
+    background-color: #f3606e;
+}
+.content .aboutme .about_content {
+    margin-top: 20px;
+    text-align: left;
+    color: gray;
+    padding-bottom: 50px;
+}
+
+.footer {
+    color: #fff;
+    padding: 50px;
+    background-color: #000;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.footer h4 {
+    color: gray;
+    margin-bottom: 10px;
+}
+.footer span {
+    font-size: 30px;
+    font-weight: 600;
+}
+.footer a {
+    display: inline-block;
+    padding: 8px 16px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: #C26401;
+    margin: 30px 0;
+    border: 1px solid #C26401;
+    border-radius: 30px;
+}
+.footer .copyright {
+    color: gray;
+    font-size: 12px;   
+}
