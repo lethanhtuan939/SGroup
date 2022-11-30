@@ -121,7 +121,7 @@ body {
 
 .footer {
     color: #fff;
-    padding: 50px;
+    padding: 50px 0;
     background-color: #000;
     text-align: center;
     letter-spacing: 1px;
@@ -146,5 +146,5 @@ body {
 }
 .footer .copyright {
     color: gray;
-    font-size: 12px;   
+    font-size: 10px;   
 }
