@@ -45,13 +45,15 @@ body {
     list-style: none;
     justify-content: space-around;
     align-items: center;
-    
+
 }
+
 .list_icon .icon_item {
     margin-right: 8px;
     background-color: #f3606e;
     border-radius: 50%;
 }
+
 .list_icon .icon_item i {
     color: #fff;
     padding: 5px;
@@ -61,17 +63,21 @@ body {
     padding: 20px;
     width: 100%;
 }
+
 .content {
     margin: 20px;
 }
+
 .content .heading {
     color: #000;
-} 
-.content .heading .title  {
+}
+
+.content .heading .title {
     font-size: 14px;
     letter-spacing: 1px;
     color: gray;
 }
+
 .content .heading p {
     font-size: 20px;
     font-weight: 600;
@@ -84,14 +90,17 @@ body {
     margin-top: 10px;
     margin-bottom: 50px;
 }
+
 .content .number .column {
     margin-right: 20px;
 }
+
 .content .number .num {
     font-size: 40px;
     font-weight: 600;
     color: #f3606e;
 }
+
 .content .number .para {
     font-size: 14px;
     color: gray;
@@ -103,6 +112,7 @@ body {
     letter-spacing: 1px;
     color: #000;
 }
+
 .content .aboutme .about::after {
     content: '';
     position: absolute;
@@ -112,6 +122,7 @@ body {
     left: 0;
     background-color: #f3606e;
 }
+
 .content .aboutme .about_content {
     margin-top: 20px;
     text-align: left;
@@ -126,14 +137,17 @@ body {
     text-align: center;
     letter-spacing: 1px;
 }
+
 .footer h4 {
     color: gray;
     margin-bottom: 10px;
 }
+
 .footer span {
     font-size: 30px;
     font-weight: 600;
 }
+
 .footer a {
     display: inline-block;
     padding: 8px 16px;
@@ -144,7 +158,8 @@ body {
     border: 1px solid #C26401;
     border-radius: 30px;
 }
+
 .footer .copyright {
     color: gray;
-    font-size: 10px;   
+    font-size: 10px;
 }
