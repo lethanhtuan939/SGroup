@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+    width: 480px;
+    height: 360px;
+    background: #3085a3;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.box .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #3085a3;
+    transition: 0.5s;
+    z-index: 1;
+    opacity: 0.4;
+}
+
+.box img {
+    object-fit: cover;
+    width: 540px;
+    display: block;
+    transition: 0.5s;
+    transform: translateX(-10%);
+}
+
+.box .content {
+    position: absolute;
+    bottom: 40px;
+    left: 50px; 
+    transition: 0.5s;
+}
+.box .content span {
+    font-weight: 300;
+}
+
+.box .content h2 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.box .content p {
+    color: #fff;
+    margin-top: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+.box:hover .overlay {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.box:hover .content {
+    bottom: 80px;
+}
+
+.box:hover .content p {
+    opacity: 1;
+}
+
+.box:hover img {
+    transform: translateX(0);
+}
+
